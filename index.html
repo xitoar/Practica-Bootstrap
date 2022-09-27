@@ -13,7 +13,7 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg bg-secondary fixed-top">
+        <nav class="navbar navbar-expand-lg myGrey fixed-top">
             <div class="container-fluid customMargin">
                 <a class="navbar-brand text-white fs-4" href="#">
                     <img src="./data/codoacodo.png" alt="Logo" width="80" height="auto"
@@ -21,8 +21,8 @@
                     Conf Bs As
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
-                    aria-label="Toggle navigation">
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
@@ -31,13 +31,13 @@
                             <a class="nav-link text-white active" aria-current="page" href="#">La conferencia</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link disabled" href="#">Los oradores</a>
+                            <a class="nav-link text-muted" href="#">Los oradores</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link disabled" href="#">El lugar y la fecha</a>
+                            <a class="nav-link text-muted" href="#">El lugar y la fecha</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link disabled" href="#">Conviertete en orador</a>
+                            <a class="nav-link text-muted" href="#">Conviertete en orador</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-success" href="#">Compra tickets</a>
@@ -64,41 +64,44 @@
         </div>
         <h5 class="text-center my-3">CONOCE A LOS <br><span class="h1">ORADORES</span></h5>
         <div class="row customMargin">
-            <div class="card mb-3 me-5 col border-0">
+            <div class="card mb-3 col col-12 col-lg-4 border-0">
                 <img src="./data/steve.jpg" class="card-img-top" alt="Steve Jobs">
                 <div class="card-body">
                     <div class="d-flex">
                         <p class="card-text mb-0 me-2 bg-warning rounded-1 px-1">Javascript</p>
                         <p class="card-text mb-0 bg-info rounded-1 text-white px-1">React</p>
                     </div>
-                    <h5 class="card-title mt-1">Steve Jobs</h5>
-                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae beatae
+                    <h5 class="card-title mt-1 fs-3">Steve Jobs</h5>
+                    <p class="card-text fs-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae
+                        beatae
                         similique rerum, voluptatibus quidem consectetur assumenda repellendus dolorum, voluptatum
                         quas numquam nihil officia soluta eveniet dicta facilis? Aperiam, eos fugiat!</p>
                 </div>
             </div>
-            <div class="card mb-3 me-5 col border-0">
+            <div class="card mb-3 col col-12 col-lg-4 border-0">
                 <img src="./data/bill.jpg" class="card-img-top" alt="Bill Gates">
                 <div class="card-body">
                     <div class="d-flex">
                         <p class="card-text mb-0 me-2 bg-warning rounded-1 px-1">Javascript</p>
                         <p class="card-text mb-0 bg-info rounded-1 text-white px-1">React</p>
                     </div>
-                    <h5 class="card-title mt-1">Bill Gates</h5>
-                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae beatae
+                    <h5 class="card-title mt-1 fs-3">Bill Gates</h5>
+                    <p class="card-text fs-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae
+                        beatae
                         similique rerum, voluptatibus quidem consectetur assumenda repellendus dolorum, voluptatum
                         quas numquam nihil officia soluta eveniet dicta facilis? Aperiam, eos fugiat!</p>
                 </div>
             </div>
-            <div class="card mb-3 col border-0">
+            <div class="card mb-3 col col-12 col-lg-4 border-0">
                 <img src="./data/ada.jpeg" class="card-img-top" alt="Ada Lovelace">
                 <div class="card-body">
                     <div class="d-flex">
                         <p class="card-text mb-0 me-2 bg-secondary rounded-1 text-white px-1">Negocios</p>
                         <p class="card-text mb-0 me-2 bg-danger rounded-1 text-white px-1">Startups</p>
                     </div>
-                    <h5 class="card-title mt-1">Ada Lovelace</h5>
-                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae beatae
+                    <h5 class="card-title mt-1 fs-3">Ada Lovelace</h5>
+                    <p class="card-text fs-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae
+                        beatae
                         similique rerum, voluptatibus quidem consectetur assumenda repellendus dolorum, voluptatum
                         quas numquam nihil officia soluta eveniet dicta facilis? Aperiam, eos fugiat!</p>
                 </div>
@@ -109,7 +112,7 @@
                 <div class="col-md-6">
                     <img src="./data/honolulu.jpg" class="img-fluid rounded-start" alt="foto playa">
                 </div>
-                <div class="col-md-6  bg-secondary text-white">
+                <div class="col-md-6  myGrey text-white">
                     <div class="card-body">
                         <h5 class="card-title fs-1">Bs As - Octubre</h5>
                         <p class="card-text fs-4">Buenos Aires es la provincia y la localidad más grande del estado
@@ -124,28 +127,30 @@
                 </div>
             </div>
         </div>
-        <h6 class="text-center">CONVIERTETE EN UN<br><span class="h1">ORADOR</span></h6>
-        <P class="text-center">Anótate como una orador para dar una <abbr title="">charla ignite</abbr>. Cuéntanos
-            de que quieres hablar!</P>
-        <div class="row customMargin2 mb-3">
-            <div class="col">
-                <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre">
-            </div>
-            <div class="col">
-                <input type="text" class="form-control" placeholder="Apellido" aria-label="Apellido">
-            </div>
-            <div class="mt-4 mb-2">
-                <textarea class="form-control fs-3" placeholder="Sobre que quiere hablar?" id="floatingTextarea2"
-                    style="height: 100px"></textarea>
-                <label class="text-muted" for="floatingTextarea2">Recuerda incluir un titulo para tu charla</label>
-            </div>
-            <div class="container">
-                <button type="button" class="btn btn-success w-100">Enviar</button>
+        <div class="customMargin2">
+            <h6 class="text-center">CONVIERTETE EN UN<br><span class="h1">ORADOR</span></h6>
+            <P class="text-center">Anótate como una orador para dar una <abbr title="">charla ignite</abbr>. Cuéntanos
+                de que quieres hablar!</P>
+            <div class="row  mb-3">
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre">
+                </div>
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Apellido" aria-label="Apellido">
+                </div>
+                <div class="mt-4 mb-2">
+                    <textarea class="form-control fs-3" placeholder="Sobre que quiere hablar?" id="floatingTextarea2"
+                        style="height: 100px"></textarea>
+                    <label class="text-muted" for="floatingTextarea2">Recuerda incluir un titulo para tu charla</label>
+                </div>
+                <div class="container">
+                    <button type="button" class="btn myGreen text-white w-100">Enviar</button>
+                </div>
             </div>
         </div>
     </main>
     <footer>
-        <nav class="nav nav-fill bg-info ">
+        <nav class="nav nav-fill myBlue ">
             <a class="nav-link text-white" href="#">Preguntas frecuentes</a>
             <a class="nav-link text-white" href="#">Contactanos</a>
             <a class="nav-link text-white" href="#">Prensa</a>

@@ -3,10 +3,26 @@
     background-size: cover;
 }
 .customMargin{
-    margin-left: 10rem;
-    margin-right: 10rem;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 .customMargin2{
-    margin-left: 35rem;
-    margin-right: 35rem;
+    margin-left: 25%;
+    margin-right: 25%;
 }
+.myGrey{
+    background-color: rgb(68, 67, 67);
+}
+.myGreen{
+    background-color: rgba(110, 223, 20 );
+}
+.myBlue{
+    background-color:rgba(44, 112, 112 );
+}
+@media (max-width: 600px){
+    .customMargin2{
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+}
+    
