@@ -1,0 +1,12 @@
+.fondo{
+    background-image: url(./data/ba1.jpg);
+    background-size: cover;
+}
+.customMargin{
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+.customMargin2{
+    margin-left: 35rem;
+    margin-right: 35rem;
+}
