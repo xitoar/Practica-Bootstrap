@@ -19,6 +19,7 @@
 .myBlue{
     background-color:rgba(44, 112, 112 );
 }
+
 @media (max-width: 600px){
     .customMargin2{
         margin-left: 2%;
