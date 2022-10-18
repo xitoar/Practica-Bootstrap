@@ -81,48 +81,35 @@
                 </div>
             </div>        
         <form class="row g-3">
-            <h6 class="text-muted">VENTA</h6>
-            <h1>VALOR DE LA ENTRADA $200</h1>
-            <div class="col-md-6">
-                <label for="inputEmail4" class="form-label">Email</label>
-                <input type="email" class="form-control" id="inputEmail4">
+            <h6 class="text-muted text-center">VENTA</h6>
+            <h1 class="text-center">VALOR DE LA ENTRADA $200</h1>
+            <div class="col-md-6">               
+                <input type="text" class="form-control" id="inputNombre" placeholder="Nombre">
+            </div>
+            <div class="col-md-6">                
+                <input type="password" class="form-control" id="inputApellido" placeholder="Apellido">
+            </div>
+            <div class="col-12">                
+                <input type="email" class="form-control" id="inputEmail" placeholder="Correo">
             </div>
             <div class="col-md-6">
-                <label for="inputPassword4" class="form-label">Contraseña</label>
-                <input type="password" class="form-control" id="inputPassword4">
-            </div>
-            <div class="col-12">
-                <label for="inputAddress" class="form-label">Dirección</label>
-                <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
-            </div>
-            <div class="col-12">
-                <label for="inputAddress2" class="form-label">Dirección 2</label>
-                <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+                <label for="inputCantidad" class="form-label">Cantidad</label>
+                <input type="number" class="form-control" id="inputCantidad" placeholder="cantidad">
             </div>
             <div class="col-md-6">
-                <label for="inputCity" class="form-label">Ciudad</label>
-                <input type="text" class="form-control" id="inputCity">
-            </div>
-            <div class="col-md-4">
                 <label for="inputState" class="form-label">Estado</label>
                 <select id="inputState" class="form-select">
                     <option selected>Elige...</option>
                     <option>...</option>
                 </select>
             </div>
-            <div class="col-md-2">
-                <label for="inputZip" class="form-label">Código postal</label>
-                <input type="text" class="form-control" id="inputZip">
-            </div>
             <div class="col-12">
-                <div class="form-check">
-                    <input class="form-check-input" type="checkbox" id="gridCheck">
-                    <label class="form-check-label" for="gridCheck">
-                        Verifícame
-                    </label>
-                </div>
+                <p>Total a Pagar: $</p>
+            </div>                          
+            <div class="col-md-6">
+                <button type="submit" class="btn btn-primary">Ingresar</button>
             </div>
-            <div class="col-12">
+            <div class="col-md-6">
                 <button type="submit" class="btn btn-primary">Ingresar</button>
             </div>
         </form>
