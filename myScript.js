@@ -16,6 +16,8 @@ function calcular() {
         case "Junior":
             ticketResultado.textContent = "Total a Pagar: $" + (ticketCant.value * (200 - (200 * 0.15)));
             break;
+        default:
+            ticketResultado.textContent = "Total a Pagar: $" + (ticketCant.value * 200); 
     }
 }
 
